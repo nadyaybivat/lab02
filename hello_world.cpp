@@ -2,10 +2,31 @@
 #include <string>     // для std::string
 
 // Главная функция программы
+int main()
+{
+    std::string name;  // переменная для имени пользователя
+    std::cout << "Enter your name: ";  // запрос имени
+    std::cin >> name;  // чтение имени
+    std::cout << "Hello world from " << name << std::endl;  // приветствие
+    return 0;  // успешное завершение
+}#include <iostream>
+#include <string>
+
+<<<<<<< HEAD
+// Главная функция программы
 int main() {
     std::string name;  // переменная для имени пользователя
     std::cout << "Enter your name: ";  // запрос имени
     std::cin >> name;  // чтение имени
     std::cout << "Hello world from " << name << std::endl;  // приветствие
     return 0;  // успешное завершение
+=======
+int main()
+{
+    std::string name;
+    std::cout << "Enter your name: ";
+    std::cin >> name;
+    std::cout << "Hello world from " << name << std::endl;
+    return 0;
+>>>>>>> d014f28 (Change formatting)
 }
